@@ -101,7 +101,7 @@ menu:
 ### Cards
 ```markdown
 {{< cards >}}
-  {{< card link="/docs" title="Docs" icon="book-open" >}}
+  {{< card link="/posts" title="Docs" icon="book-open" >}}
 {{< /cards >}}
 ```
 

@@ -1,0 +1,7 @@
+{{ with .context.Params.tags }}
+  {{ range . }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="post-tag">
+      {{ . }}
+    </a>
+  {{ end }}
+{{ end }}

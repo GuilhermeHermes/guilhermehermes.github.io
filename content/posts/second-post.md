@@ -1,11 +1,10 @@
 ---
 title: First post
-date: 2026-01-12
-type: docs
+date: 2026-01-13
+type: posts
 tags:
   - blog
   - cu
-prev: docs/january-2026
 weight: 2
 ---
 
