@@ -30,7 +30,7 @@ menu:
         type: search
     - name: GitHub
       weight: 4
-      url: "https://github.com/GuilHermes"
+      url: "https://github.com/GuilhermeHermes"
       params:
         icon: github
     - name: LinkedIn
