@@ -1,0 +1,59 @@
+# Hugo configuration file
+title: GuilHermes
+
+# import hextra as module
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+taxonomies:
+  tag: tags
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /docs
+      weight: 1
+    - name: Tags
+      pageRef: /tags
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/GuilHermes"
+      params:
+        icon: github
+    - name: LinkedIn
+      weight: 6
+      url: "https://www.linkedin.com/in/guilherme-hermes-008408210/"
+      params:
+        icon: linkedin
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: true
+
+  editURL:
+    enable: false
+    base: "https://github.com/GuilHermes"
