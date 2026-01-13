@@ -59,4 +59,4 @@ params:
       pagerSize: 10
       displayTags: true
 
-baseURL: https://guilhermehermes.github.io/hermes/
+baseURL: https://guilhermehermes.github.io/
