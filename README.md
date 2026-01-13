@@ -71,13 +71,12 @@ hextra-starter-template/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
 - **Hugo Extended** v0.147.9+ ([Download](https://gohugo.io/installation/))
-- **Go** 1.24+ ([Download](https://go.dev/dl/))
-- **Git** ([Download](https://git-scm.com/downloads))
+- **Go** check mise.toml ([Download](https://go.dev/dl/))
 
 ### Installation
 
@@ -294,7 +293,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -306,4 +305,3 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-**Built with ❤️ using Hugo and Hextra**
